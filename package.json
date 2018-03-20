@@ -1,0 +1,13 @@
+{
+  "name": "twilio-dialog-flow",
+  "version": "0.0.1",
+  "description": "A dialog flow demonstration for twilio",
+  "main": "index.js",
+  "author": "Rahul Sharma",
+  "devDependencies": {
+    "mocha": "^5.0.2"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha *spec.js --ui tdd --exit"
+  }
+}
